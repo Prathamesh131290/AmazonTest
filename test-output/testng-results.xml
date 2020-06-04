@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="80973" started-at="2020-06-04T20:34:09 IST" finished-at="2020-06-04T20:35:30 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="47043" started-at="2020-06-04T20:34:09 IST" finished-at="2020-06-04T20:34:56 IST">
+      <class name="tests.TestOne">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.TestOne@9660f4e]" name="setup" is-config="true" duration-ms="21955" started-at="2020-06-04T20:34:09 IST" finished-at="2020-06-04T20:34:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="viewHomePage()[pri:0, instance:tests.TestOne@9660f4e]" name="viewHomePage" duration-ms="7032" started-at="2020-06-04T20:34:31 IST" finished-at="2020-06-04T20:34:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewHomePage -->
+        <test-method status="PASS" signature="viewAccountPage()[pri:1, instance:tests.TestOne@9660f4e]" name="viewAccountPage" duration-ms="14795" started-at="2020-06-04T20:34:38 IST" finished-at="2020-06-04T20:34:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPage -->
+        <test-method status="PASS" signature="displayMessage()[pri:2, instance:tests.TestOne@9660f4e]" name="displayMessage" duration-ms="119" started-at="2020-06-04T20:34:53 IST" finished-at="2020-06-04T20:34:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMessage -->
+        <test-method status="PASS" signature="closure(java.lang.String)[pri:0, instance:tests.TestOne@9660f4e]" name="closure" is-config="true" duration-ms="3010" started-at="2020-06-04T20:34:53 IST" finished-at="2020-06-04T20:34:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.TestOne -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="33868" started-at="2020-06-04T20:34:56 IST" finished-at="2020-06-04T20:35:30 IST">
+      <class name="tests.TestOne">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.TestOne@1786dec2]" name="setup" is-config="true" duration-ms="17983" started-at="2020-06-04T20:34:56 IST" finished-at="2020-06-04T20:35:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="viewHomePage()[pri:0, instance:tests.TestOne@1786dec2]" name="viewHomePage" duration-ms="4852" started-at="2020-06-04T20:35:14 IST" finished-at="2020-06-04T20:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewHomePage -->
+        <test-method status="PASS" signature="viewAccountPage()[pri:1, instance:tests.TestOne@1786dec2]" name="viewAccountPage" duration-ms="4939" started-at="2020-06-04T20:35:19 IST" finished-at="2020-06-04T20:35:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPage -->
+        <test-method status="PASS" signature="displayMessage()[pri:2, instance:tests.TestOne@1786dec2]" name="displayMessage" duration-ms="391" started-at="2020-06-04T20:35:24 IST" finished-at="2020-06-04T20:35:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMessage -->
+        <test-method status="PASS" signature="closure(java.lang.String)[pri:0, instance:tests.TestOne@1786dec2]" name="closure" is-config="true" duration-ms="5698" started-at="2020-06-04T20:35:24 IST" finished-at="2020-06-04T20:35:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.TestOne -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
